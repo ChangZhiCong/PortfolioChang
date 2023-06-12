@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!--css link-->
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+  </style>
+</head>
+<body>
+  <header>
+    <!--====create a nav link======-->
+    <header class = "header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="bx bx-menu" id="menu"></i>
+        <nav class = "navbar">
+            <a href="#home" style="--clr:1">Home</a>
+            <a href="#about" style="--clr:2">About</a>
+            <a href="#service"  style="--clr:3">Services</a>
+            <a href="#portfolio"  style="--clr:4">Portfolio</a>
+            <a href="#contact"  style="--clr:5">Contact</a>
+        </nav>
+    </header>
+    <!--create a home section-->
+    <section class="home" id="home">
+        <div class="home-detail">
+            <h3>Hello It's Me</h3>
+            <h1>Chang Zhi Cong</h1>
+            <h3>And I'm a <span class="textline"></span></h3>
+            <p>who currently studying diploma computer science !</p>
+            <div class="social-media">
+                 <a href="#"><i class="bx bxl-facebook"></i></a>
+                 <a href="#"><i class="bx bxl-instagram"></i></a>
+                 <a href="#"><i class="bx bxl-whatsapp"></i></a>
+            </div>
+            <button class="btn">Download CV</button>
+        </div>
+        <div class="home-img">
+            <img src="images/profile_picture.png" alt="">
+        </div>
+    </section>
+    <!--Create a about section-->
+    <section class="about" id="about">
+        <div class="aboutImg">
+        <img src="images/profile_picture.png" alt="">
+        </div>
+        <div class="about-section">
+            <h2 class="all-heading">About <span>Me</span></h2>
+            <h3>Web Developer</h3>
+            <p>Hi. My name is Chang Zhi Cong. You can called me Chang. I'm a web developer who studying diploma computer science in TARUMT. I will be 
+               taking internship from 20 November 2023 till 29 January 2024. I love coding and I hope I can become a professional web developer one day!</p>
+               <a href="#" class = "btn">Read More</a>
+        </div>
+    </section>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!--Create a service section-->
+    <section class="service" id="service">
+        <h2 class="all-heading">My <span>Services</span></h2>
+        <div class="service-section">
+            <div class="service-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Development</h3>
+                <p>Web development can be classify as the most advantage job opportunity to enchance our own creativity and visibility.</p>
+                   <a href="#" class = "btn">Read More</a>
+            </div>
+            <div class="service-box">
+                <i class="bx bx-bar-chart-alt"></i>
+                <h3>Digital Marketing</h3>
+                <p>Digital marketing has become one of the most professional career in the world.</p>
+                   <a href="#" class = "btn">Read More</a>
+            </div>
+            <div class="service-box">
+                <i class="bx bxl-adobe"></i>
+                <h3>Photoshop</h3>
+                <p>Since 2004, photoshop has been widely used by all the programmer and designer to deliver a cost-effective images.</p>
+                   <a href="#" class = "btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!--Create a portfolio section-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="all-heading">Recent <span>Project</span></h2>
+        <div class="portfolio-section">
+            <div class="portfolio-box">
+                <img src="images/WEB DESIGN.png" alt="">
+                <div class="portfolio-head">
+                    <h4>Web Design</h4>
+                    <p>Accomplish web design project such as ecommerce websites in July - October 2022.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/system analyst.png" alt="">
+                <div class="portfolio-head">
+                    <h4>System Analysis</h4>
+                    <p>Accomplish system analysis project such as inventory control and management system in December - January 2022.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/console-based-system.png" alt="">
+                <div class="portfolio-head">
+                    <h4>console-based-system</h4>
+                    <p>Accomplish console-based-system project such as multi-level marketing system in March - May 2023.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Create a contact section--> 
+    <section class="contact" id="contact">
+        <h2 class = "all-heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="Mobile Number">
+                <input type="text" placeholder="Subject for">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            <input type="submit" class = "btn" value="Send Message">
+        </form>
+    </section>
+    <!--Create a footer section-->
+    <footer class="footer">
+        <div class="text">
+            <p>Copyright@2023 by Chang Zhi Cong || All Right Reserved</p>
+        </div>
+        <div class="footerUp">
+            <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
